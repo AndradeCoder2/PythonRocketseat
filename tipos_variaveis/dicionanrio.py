@@ -43,4 +43,16 @@ print("Primeira chave:", chaves[1])
 # Para acessarmos devemos, transformar ele uma (lista) fazer um casting.
 
 
+''' Metodo Values()'''
+#
+valores = list(pessoa.values())
+print("Primeiro valor do dicionario:", valores)
+#  Podemos pesquisar um valor expecifico do dicionário, adicionando a palavra-chave (list)
+
+''' Metodo items'''
+#  Nós temos uma lista aonde cada elemento e uma tuplas, com a chave e com o valor.
+itens = list(pessoa.items())
+print("Pares chave-valor do dicionario: ",itens)
+#  Podemos acessar cada valor que quisermos, se quisermos podemos acessar o primeiro item
+print("Primeiro valor:", itens[1], {2})
 
