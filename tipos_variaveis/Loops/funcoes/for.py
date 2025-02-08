@@ -1,4 +1,5 @@
 from conda.env.env import print_result
+from conda.exceptions import print_conda_exception
 
 print("Utilizando a função range()")
 # Função range() - retorna um intervalo númerico em formato de lista.
@@ -25,3 +26,17 @@ for indice1 in range(0, len(lista2)):
     if indice1 == 3:
         lista2[indice1] = 44
         print(lista2)
+    else:
+        lista2[indice1] = 0
+        print(lista2)
+
+#  Enumarate - permite que nos usemos uma lista.
+print("For com enumerate")
+lista3 = ["a", "b", "c"]
+for indice, valor in enumerate(lista3):
+    print(f"{indice}: e {valor}")
+
+    if indice == 3:
+        print("Teste de enumerate")
+    else:
+        print("Teste deu certo")
