@@ -32,15 +32,26 @@ print(meu_dicionario)
 
 """ 
 Keys()
-Ele nos mostrara tudo que esta dentro da nossa chave.
+Ele e usado para obter todas as chaves do dicionario.
 Quando usamos, podemos verificar todas as chaves, que temos no nosso dicionario.
 """
+print("Utilizando metodo Keys()")
 chaves = list(pessoa.keys())
 print("Chaves do meu dicionario:",chaves)
 #Podemos acessar apenas uma chave tambem.
 print("Primeira chave:", chaves[1])
 # Ao faermos isso ele nos mostrara um ERRO, pois ele (entende que isso não e uma lista direta).
 # Para acessarmos devemos, transformar ele uma (lista) fazer um casting.
+
+""" Metodo Values() """
+#  Para obtermos todos os valores de um dicionario, utilizamos o metodo ( values() )
+print("Utilizando o metodo values()")
+valores = pessoa.values()
+print(list(valores))
+
+
+
+
 
 
 ''' Metodo Values()'''
