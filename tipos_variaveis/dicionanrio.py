@@ -50,10 +50,6 @@ valores = pessoa.values()
 print(list(valores))
 
 
-
-
-
-
 ''' Metodo Values()'''
 #
 valores = list(pessoa.values())
