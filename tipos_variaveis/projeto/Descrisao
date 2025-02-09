@@ -1,11 +1,18 @@
+1. Função adicionar_tarefa
+ * Passamos como parâmetro a (Lista = tarefas) que criamos vazia, e o (nome_tarefa).
+ * Criamos um (dicionario) tarefa = {"tarefa": nome_tarefa, "Completada": False}, incializamos ela como (Flase).
+ * tarefas.append(tarefa)
+ 🔹 tarefas → É a lista que criamos.
+ 🔹 append(tarefa)→ esta adicionando uma tarefa na nossa lista.
+Ele está colocando uma nova tarefa dentro da lista de tarefas .
+adicione em nossa lista a tarefa tals...
 
-
-
-
-2. Função Ver_tarefa:
+2. Função Ver_tarefa
  * Criamos ela para que possamos ver as tarefas que criamos.
  * Estamos utilizando um (Loop For) permite que façamos uma interação com cada elemento da minha lista de tarefas.
  * E queremos ter o idice de cada elemento, porque quando formos (atualizar) e (deletar), iremos fazer isso através dele.
  * Estamos adicionando uma variavel (status) para dizer se já foi completada.
  * ["Completada"] Utilizamos para acessarmos o elemento do (dicionario) atraves da sua (chave).
  *   nome_tarefa = tarefa["tarefa"] = Criando uma variavel, e estamos acessando a chave tarefa.
+
+ 3. tarefa_nome_atualizar
