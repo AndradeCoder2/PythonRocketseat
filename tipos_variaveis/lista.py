@@ -71,5 +71,5 @@ print("---------------------------------------------------")
 #  Como organizar nossa lista, ele organiza nossa lista em ordem crescente.
 #Metodo (sort), não funciona quando temos elementos de varios tipos.
 #Porque estamos tentando ordenar ela em ordem crescente, e não conseguimos fazer isso, com letras.
-minhe_lista.sort()
+minhe_lista.sort(int)
 print("Apos short()", minhe_lista)
